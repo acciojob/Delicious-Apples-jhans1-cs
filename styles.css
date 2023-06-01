@@ -1,1 +1,93 @@
 /* your code here */
+body{
+	background-color:springgreen;
+}
+.photo-main{
+	background:radial-gradient(circle at center,white,greenyellow);
+	width:100%;
+	margin:60px auto;
+}
+.product__photo{
+	z-index:1;
+}
+.photo-main .controls{
+	display:flex;
+	justify-content:space-between;
+	padding:1%;
+	color:white;
+}
+.photo-main img{
+	position:relative;
+	left:-50px;
+}
+.photo-album ul{
+	display:flex;
+	justify-content:center;
+}
+.photo-album li{
+    list-style-type:none;
+	border:1px solid black;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-top:-20px;
+}
+.photo-container{
+   background-color:white;
+   width:350px;
+	margin-left:100px
+}
+.product{
+	display:flex;
+	
+}
+.title h1{
+	margin-left:10px;
+}
+.title span{
+	color:gray;
+	margin-left:10px;
+}
+.price{
+	color:red;
+	margin-left:10px;
+}
+.price span{
+	font-size:40px;
+}
+.variant ul{
+	display:flex;
+}
+.variant ul li{
+	list-style-type:none;
+	margin:10px;
+}
+.variant h3{
+	color:gray;
+	margin-left:10px;
+}
+.variant .first-child{
+	border:1px solid black;
+}
+.description h3{
+	color:grey;
+	margin-left:10px;
+}
+.btn{
+    padding:2%
+}
+.btn button{
+	padding:1%;
+	border-radius:5px;
+	color:white;
+	background-color:orangered;
+	margin:20px;
+}
+.product__info{
+	background-color:white;
+	position:absolute;
+	left:150px;
+	top:50px;
+	width:500px;
+	height:550px
+    text-align:center;
+}
